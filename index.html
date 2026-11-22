@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr Ruth's Dental Clinic | Dentist in Virar West, Vasai-Virar</title>
+<meta name="description" content="Dr Ruth's Dental Clinic in Kingston Court, Tirupati Nagar, Virar West. Check-ups, fillings, root canals, braces, implants and more. Book on WhatsApp or call 098191 27451.">
+<meta name="theme-color" content="#12302B">
+
+<!-- Open Graph: edit these manually (social scrapers do not run JavaScript) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dr Ruth's Dental Clinic | Virar West">
+<meta property="og:description" content="Dental care in Virar West, Vasai-Virar. Book an appointment on WhatsApp.">
+<meta property="og:url" content="https://[YOUR-DOMAIN]/">
+<meta property="og:image" content="https://[YOUR-DOMAIN]/og-image.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2312302B'/%3E%3Cpath d='M32 16c-6-5-16-3-16 9 0 8 5 11 6 19 1 6 3 8 5 8 3 0 2-9 5-9s2 9 5 9c2 0 4-2 5-8 1-8 6-11 6-19 0-12-10-14-16-9z' fill='none' stroke='%23FAF7F2' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  /* ---- Brand colours: change these to re-theme the whole site ---- */
+  --bg:#FAF7F2;        /* warm ivory page background */
+  --paper:#FFFFFF;
+  --ink:#12302B;       /* deep green-black, main text + dark sections */
+  --ink-soft:#4A605B;
+  --teal:#1F6F6A;
+  --mint:#E4EEE9;
+  --clay:#B94A26;      /* the one warm accent: used for the main call to action */
+  --clay-dark:#9C3D1D;
+  --wa:#0F8A4B;
+  --line:#D9E0DB;
+  --warn:#FFF1B8;      /* placeholder highlight (draft mode only) */
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-body:'Figtree',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --wrap:1120px;
+  --radius:20px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:17px;line-height:1.6;padding-bottom:84px}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.12;margin:0;letter-spacing:-.01em}
+p{margin:0}
+.wrap{width:min(var(--wrap),100% - 40px);margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;background:var(--ink);color:#fff;padding:10px 16px;border-radius:8px;z-index:100}
+.skip:focus{top:12px}
+:focus-visible{outline:3px solid var(--clay);outline-offset:3px;border-radius:4px}
+
+/* draft-mode helpers */
+.ph{background:var(--warn);box-shadow:0 0 0 3px var(--warn);border-radius:3px}
+.draft-bar{background:#1b1b1b;color:#fff;font-size:14px;padding:8px 20px;text-align:center}
+.draft-bar b{background:var(--warn);color:#1b1b1b;padding:1px 6px;border-radius:3px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:2px solid transparent;font:600 16px/1 var(--font-body);text-decoration:none;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-primary{background:var(--clay);color:#fff}
+.btn-primary:hover{background:var(--clay-dark)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:#0b6f3c}
+.btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+.btn-sm{min-height:44px;padding:0 18px;font-size:15px}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.brand-mark{width:40px;height:40px;border-radius:11px;background:var(--ink);color:var(--bg);display:grid;place-items:center;flex:none}
+.brand-mark svg{width:24px;height:24px}
+.brand-name{font:600 18px/1.1 var(--font-display);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand-sub{display:block;font:500 12px/1.2 var(--font-body);color:var(--ink-soft);letter-spacing:.04em;text-transform:uppercase}
+.nav{display:none}
+.nav a{text-decoration:none;font-weight:500;padding:10px 12px;border-radius:8px}
+.nav a:hover{background:var(--mint)}
+.nav.open{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:68px;background:var(--bg);padding:12px 20px 20px;border-bottom:1px solid var(--line)}
+.nav.open a{padding:14px 8px;border-bottom:1px solid var(--line);font-size:18px}
+.bar-actions{display:flex;align-items:center;gap:8px}
+.menu-btn{width:48px;height:48px;border:1px solid var(--line);background:var(--paper);border-radius:12px;display:grid;place-items:center;cursor:pointer}
+.menu-btn svg{width:22px;height:22px}
+.bar-actions .btn-primary{display:none}
+
+/* hero */
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 13px/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase;color:var(--teal);margin-bottom:18px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--teal)}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.hero{padding:40px 0 64px}
+.hero-grid{display:grid;gap:32px}
+.hero h1{font-size:clamp(2.2rem,8.2vw,4rem);margin-bottom:20px}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--teal)}
+.hero p.lead{font-size:1.15rem;color:var(--ink-soft);max-width:34em;margin-bottom:28px}
+.hero-photo{margin:0;border-radius:24px;overflow:hidden;aspect-ratio:4/3.3;box-shadow:0 26px 50px -24px rgba(18,48,43,.5)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:68% 50%}
+
+/* facts strip */
+.facts{background:var(--ink);color:var(--bg)}
+.facts-grid{display:grid;gap:0}
+.fact{padding:20px 0;border-bottom:1px solid rgba(250,247,242,.18)}
+.fact:last-child{border-bottom:0}
+.fact small{display:block;font:600 12px/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase;color:#9fc4bd;margin-bottom:8px}
+.fact a{text-decoration:none}
+.fact .ph{color:#1b1b1b}
+
+/* sections */
+section{padding:64px 0}
+.sec-head{max-width:40em;margin-bottom:36px}
+.sec-head h2{font-size:clamp(1.8rem,5.4vw,2.7rem);margin-top:10px}
+.sec-head p{color:var(--ink-soft);margin-top:14px}
+
+/* services: editorial numbered list, not a card grid */
+.services-list{list-style:none;margin:0;padding:0;display:grid;gap:0 56px}
+.services-list li{display:grid;grid-template-columns:44px 1fr auto;gap:4px 14px;padding:22px 0;border-top:1px solid var(--ink)}
+.services-list .num{font:400 1.1rem/1.4 var(--font-display);color:var(--teal);font-style:italic}
+.services-list h3{font-size:1.3rem;margin-bottom:6px}
+.services-list p{color:var(--ink-soft);font-size:.98rem;grid-column:2}
+.services-list .price{font-weight:600;font-size:.95rem;align-self:start;text-align:right;padding-top:4px}
+.fine{font-size:.9rem;color:var(--ink-soft);margin-top:24px}
+
+/* about */
+.about{background:var(--paper);border-block:1px solid var(--line)}
+.about-grid{display:grid;gap:32px;align-items:center}
+.portrait{width:min(100%,300px);aspect-ratio:3/4;background:var(--mint);border-radius:150px 150px 20px 20px;display:grid;place-items:center;justify-self:center;color:var(--teal);text-align:center;padding:24px;font-size:14px}
+.portrait img{width:100%;height:100%;object-fit:cover;border-radius:inherit}
+.about h2{font-size:clamp(1.8rem,5.4vw,2.6rem);margin:10px 0 6px}
+.creds{color:var(--teal);font-weight:600;margin-bottom:16px}
+.about p+p{margin-top:12px}
+.tagrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tag{border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;background:var(--bg)}
+
+/* why */
+.why-grid{display:grid;gap:28px}
+.why-list{list-style:none;margin:0;padding:0;display:grid;gap:22px}
+.why-list li{display:grid;grid-template-columns:30px 1fr;gap:12px}
+.why-list svg{width:26px;height:26px;color:var(--teal);margin-top:2px}
+.why-list h3{font-size:1.15rem;margin-bottom:4px}
+.why-list p{color:var(--ink-soft);font-size:.98rem}
+
+/* gallery */
+.gallery{background:var(--mint)}
+.gal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.tile{position:relative;border-radius:16px;overflow:hidden;background:var(--paper);aspect-ratio:1/1;display:grid;place-items:center;text-align:center;font-size:13px;color:var(--ink-soft);padding:10px;border:1.5px dashed rgba(18,48,43,.3)}
+.tile{aspect-ratio:4/3}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tile.has-img{border:0}
+
+/* testimonials */
+.t-grid{display:grid;gap:16px}
+.t-card{background:var(--paper);border:1.5px dashed var(--line);border-radius:var(--radius);padding:24px}
+.t-card blockquote{margin:0 0 16px;font:400 1.1rem/1.5 var(--font-display)}
+.t-card footer{font-size:.9rem;color:var(--ink-soft)}
+.t-card.real{border:1px solid var(--line)}
+
+/* faq */
+.faq{background:var(--paper);border-block:1px solid var(--line)}
+.faq-list{max-width:760px}
+details{border-top:1px solid var(--line)}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:20px 40px 20px 0;font:600 1.1rem/1.35 var(--font-display);position:relative;min-height:56px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:16px;font:400 1.8rem/1 var(--font-body);color:var(--teal);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 20px;color:var(--ink-soft);max-width:40em}
+
+/* hours + location */
+.loc-grid{display:grid;gap:20px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.card h3{font-size:1.35rem;margin-bottom:14px}
+.hours{margin:0}
+.hours div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.hours div:last-child{border-bottom:0}
+.hours dt{font-weight:500}
+.hours dd{margin:0;color:var(--ink-soft);text-align:right}
+.addr{font-style:normal;margin-bottom:18px;line-height:1.7}
+.map-ph{margin-top:18px;border-radius:14px;background:var(--mint);min-height:170px;display:grid;place-items:center;text-align:center;padding:16px;font-size:14px;color:var(--ink-soft)}
+.map-ph iframe{width:100%;height:320px;border:0;border-radius:14px}
+.emerg{margin-top:20px;background:var(--ink);color:var(--bg);border-radius:var(--radius);padding:22px 26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
+.emerg strong{font-family:var(--font-display);font-size:1.2rem}
+
+/* contact */
+.contact{background:var(--ink);color:var(--bg)}
+.contact .sec-head p{color:#b8d0cb}
+.contact .eyebrow{color:#9fc4bd}
+.contact .eyebrow::before{background:#9fc4bd}
+.contact-grid{display:grid;gap:28px}
+.form-card{background:var(--paper);color:var(--ink);border-radius:22px;padding:26px}
+.field{margin-bottom:16px}
+label{display:block;font-weight:600;font-size:.95rem;margin-bottom:6px}
+label .opt{font-weight:400;color:var(--ink-soft)}
+input,select,textarea{width:100%;min-height:52px;padding:12px 14px;border:1.5px solid #b9c5c0;border-radius:12px;font:inherit;background:#fff;color:var(--ink)}
+textarea{min-height:96px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:3px solid rgba(185,74,38,.35);border-color:var(--clay)}
+.err{display:none;color:#a02020;font-size:.9rem;margin-top:6px}
+.field.bad input{border-color:#a02020}
+.field.bad .err{display:block}
+.form-note{font-size:.85rem;color:var(--ink-soft);margin-top:12px}
+.contact-list{list-style:none;margin:0;padding:0;display:grid;gap:18px;align-content:start}
+.contact-list small{display:block;font:600 12px/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase;color:#9fc4bd;margin-bottom:6px}
+.contact-list a{text-decoration:none;border-bottom:1px solid rgba(250,247,242,.35)}
+.contact .ph{color:#1b1b1b}
+
+/* footer */
+footer.site-footer{padding:32px 0 20px;font-size:.9rem;color:var(--ink-soft)}
+.disclaimer{max-width:56em;margin-bottom:14px}
+
+/* floating actions */
+.fabs{position:fixed;right:14px;bottom:14px;z-index:60;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.fab{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:56px;min-width:56px;padding:0 18px;border-radius:999px;color:#fff;font-weight:600;text-decoration:none;box-shadow:0 6px 18px rgba(18,48,43,.28)}
+.fab svg{width:26px;height:26px;flex:none}
+.fab-wa{background:var(--wa)}
+.fab-call{background:var(--ink);height:52px}
+.fab span{display:none}
+
+/* larger screens */
+@media (min-width:600px){
+  .gal-grid{grid-template-columns:repeat(3,1fr)}
+  .fab span{display:inline}
+  .t-grid{grid-template-columns:repeat(3,1fr)}
+  .facts-grid{grid-template-columns:repeat(3,1fr)}
+  .fact{border-bottom:0;border-right:1px solid rgba(250,247,242,.18);padding:24px 24px 24px 0;margin-right:24px}
+  .fact:last-child{border-right:0}
+}
+@media (min-width:900px){
+  body{padding-bottom:0;font-size:18px}
+  .hero{padding:72px 0 96px}
+  .hero-grid{grid-template-columns:1.05fr .95fr;align-items:center;gap:60px}
+  .hero-photo{aspect-ratio:1/1.02}
+  .menu-btn{display:none}
+  .nav{display:flex;gap:2px}
+  .bar-actions .btn-primary{display:inline-flex}
+    section{padding:96px 0}
+  .services-list{grid-template-columns:1fr 1fr}
+  .about-grid{grid-template-columns:.7fr 1.3fr;gap:64px}
+  .why-grid{grid-template-columns:.8fr 1.2fr;gap:64px}
+  .why-list{grid-template-columns:1fr 1fr;gap:32px}
+  .loc-grid{grid-template-columns:1fr 1.2fr}
+  .contact-grid{grid-template-columns:1.1fr .9fr;gap:56px}
+  .form-card{padding:36px}
+}
+
+/* ===== UI polish ===== */
+html{scroll-padding-top:80px}
+h1,h2{text-wrap:balance}
+.site-header{box-shadow:0 6px 20px -16px rgba(18,48,43,.5)}
+
+/* services as cards */
+.services-list{gap:14px 20px}
+.services-list li{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px;transition:border-color .15s,transform .15s,box-shadow .15s}
+.services-list li:hover{border-color:var(--teal);transform:translateY(-2px);box-shadow:0 16px 30px -20px rgba(18,48,43,.45)}
+.services-list .num{width:34px;height:34px;border-radius:50%;background:var(--mint);display:grid;place-items:center;font:600 .82rem/1 var(--font-body);font-style:normal;color:var(--teal)}
+.services-list h3{font-size:1.22rem}
+.svc-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-top:28px;background:var(--mint);border-radius:20px;padding:22px 26px}
+.svc-cta p{font:600 1.25rem/1.3 var(--font-display);color:var(--ink)}
+
+/* about */
+.about-grid{gap:20px 64px;align-items:start}
+.portrait[hidden]{display:none}
+.about-grid .portrait{width:min(100%,300px);aspect-ratio:3/4;border-radius:22px;padding:0;overflow:hidden}
+.about-body p#bio{color:var(--ink-soft);font-size:1.05rem}
+.about-points{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:10px}
+.about-points li{display:flex;gap:12px;align-items:center;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:13px 16px;font-weight:500;font-size:.98rem}
+.about-points svg{width:22px;height:22px;color:var(--teal);flex:none}
+.tagrow:empty{display:none}
+
+/* why us as cards */
+.why-grid{grid-template-columns:1fr;gap:28px}
+.why-list{grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.why-list li{display:block;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px}
+.why-list svg{width:34px;height:34px;margin:0 0 14px}
+
+/* gallery */
+.tile img{transition:transform .5s}
+.tile:hover img{transform:scale(1.04)}
+
+/* location */
+.loc-col{display:grid;gap:20px;align-content:start}
+.loc-grid{align-items:start}
+.emerg{margin-top:0}
+.map-ph{min-height:0;padding:0;background:none;display:block}
+.map-ph iframe{height:360px;display:block}
+
+/* footer */
+.site-footer{border-top:1px solid var(--line)}
+.foot-links{display:flex;flex-wrap:wrap;gap:8px 22px;margin-bottom:16px}
+.foot-links a{font-weight:500;color:var(--ink);text-decoration:none}
+.foot-links a:hover{text-decoration:underline}
+
+/* phones: bottom call + WhatsApp bar instead of floating buttons */
+@media (max-width:899px){
+  .fabs{left:0;right:0;bottom:0;flex-direction:row;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(250,247,242,.97);border-top:1px solid var(--line);backdrop-filter:blur(8px)}
+  .fab{flex:1;height:52px;box-shadow:none}
+  .fab span{display:inline}
+}
+@media (min-width:900px){
+  .about-grid{grid-template-columns:.7fr 1.3fr}
+  .about-grid .portrait{grid-row:span 2}
+  .about-grid.solo{grid-template-columns:.9fr 1.1fr}
+  .about-grid.solo .about-head{grid-column:1;grid-row:1}
+  .about-grid.solo .about-body{grid-column:2;grid-row:1}
+  .why-grid{grid-template-columns:1fr}
+  .faq>.wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
+  .faq .sec-head{margin-bottom:0;position:sticky;top:100px}
+  .faq-list{max-width:none}
+  .loc-grid{grid-template-columns:.85fr 1.15fr}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- Inline SVG icons, reused with <use> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-tooth" viewBox="0 0 200 240"><path d="M100 40C80 22 40 24 36 66c-3 32 16 46 20 80 3 30 8 68 24 68 14 0 12-44 20-44s6 44 20 44c16 0 21-38 24-68 4-34 23-48 20-80-4-42-44-44-64-26z" fill="none" stroke="currentColor" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/><path d="M62 62c6-14 20-16 30-8" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" opacity=".55"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2zm0 18.1a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.1.82.83-3.03-.2-.31a8.2 8.2 0 1 1 7 3.85zm4.5-6.1c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.12-.56.12-.16.25-.64.8-.78.97-.15.16-.29.18-.54.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.72-1.33.08-.16.04-.3-.02-.42-.06-.12-.56-1.35-.77-1.85-.2-.48-.4-.42-.56-.42h-.47c-.16 0-.43.06-.65.3-.23.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.16 1.73 2.64 4.2 3.7 1.56.67 2.17.73 2.95.62.48-.07 1.46-.6 1.67-1.17.2-.58.2-1.07.14-1.17-.06-.1-.23-.16-.48-.28z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m7.5 12.5 3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+</svg>
+
+<div id="draftBar" class="draft-bar" hidden>
+  DRAFT PREVIEW: <b>yellow highlights</b> mark sample text (hours, doctor bio, &ldquo;what to expect&rdquo; points) to confirm with the clinic. Set <code>draftMode: false</code> before publishing.
+</div>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand-mark"><svg aria-hidden="true"><use href="#i-tooth"/></svg></span>
+      <span><span class="brand-name" data-cfg="name">Dr Ruth's Dental Clinic</span><span class="brand-sub">Virar West</span></span>
+    </a>
+    <nav id="nav" class="nav" aria-label="Main">
+      <a href="#services">Treatments</a>
+      <a href="#about">Doctor</a>
+      <a href="#gallery" id="navGallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Book</a>
+    </nav>
+    <div class="bar-actions">
+      <a class="btn btn-primary btn-sm" href="#contact">Book appointment</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><svg aria-hidden="true"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div id="top"></div>
+
+  <!-- HERO: text + photo side by side. Swap images/hero.webp for a real clinic photo when available -->
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Dental clinic &middot; Virar West</span>
+        <h1 id="h1">Dental care for your family, <em>close to home</em> in Virar West.</h1>
+        <p class="lead">Check-ups, fillings, root canals, braces, implants and more with Dr Ruth. Message us on WhatsApp and we will confirm a time that suits you.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" data-href="wa" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>Book on WhatsApp</a>
+          <a class="btn btn-ghost" data-href="call"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-cfg="phone">+91 98191 27451</span></a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="images/hero.webp" alt="A dentist explaining an X-ray on screen to a patient" width="1100" height="825" fetchpriority="high">
+      </figure>
+    </div>
+  </section>
+
+  <!-- FACTS STRIP -->
+  <div class="facts">
+    <div class="wrap facts-grid">
+      <div class="fact"><small>Find us</small><a data-href="map" target="_blank" rel="noopener" id="factAddr">Kingston Court, Virar West</a></div>
+      <div class="fact"><small>Clinic hours</small><span id="factHours"></span></div>
+      <div class="fact"><small>Call or WhatsApp</small><a data-href="call" data-cfg="phone">+91 98191 27451</a></div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services" aria-labelledby="h-services">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Treatments</span>
+        <h2 id="h-services">What we can help with</h2>
+        <p>Every treatment starts with an examination. The doctor will explain your options and the cost before anything begins.</p>
+      </div>
+      <ol class="services-list" id="serviceList"></ol>
+      <p class="fine">Fees depend on the diagnosis and the materials chosen. Final advice is given only after an in-person examination.</p>
+      <div class="svc-cta">
+        <p>Not sure what you need? Start with a check-up.</p>
+        <a class="btn btn-primary" data-href="wa" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>Book on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about" aria-labelledby="h-about">
+    <div class="wrap about-grid" id="aboutGrid">
+      <div class="portrait" id="portrait" hidden></div>
+      <div class="about-head">
+        <span class="eyebrow">Meet the doctor</span>
+        <h2 id="h-about" data-cfg="doctorName">Dr Ruth</h2>
+        <p class="creds" id="creds"></p>
+      </div>
+      <div class="about-body">
+        <p id="bio"></p>
+        <ul class="about-points">
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Clinic at Kingston Court, opposite Old Viva College, Virar West</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Book by WhatsApp, phone or the form below</li>
+          <li><svg aria-hidden="true"><use href="#i-check"/></svg>Treatment advice only after an in-person examination</li>
+        </ul>
+        <div class="tagrow" id="focusTags"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section aria-labelledby="h-why">
+    <div class="wrap why-grid">
+      <div class="sec-head" style="margin-bottom:0">
+        <span class="eyebrow">Why patients visit us</span>
+        <h2 id="h-why">What to expect at your visit</h2>
+      </div>
+      <ul class="why-list" id="whyList"></ul>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery" aria-labelledby="h-gal">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Gallery</span>
+        <h2 id="h-gal">Comfortable, careful dentistry</h2>
+        <p>Representative images. Photos of our own clinic will be added soon.</p>
+      </div>
+      <div class="gal-grid" id="galGrid"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="reviews" aria-labelledby="h-test">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Patient feedback</span>
+        <h2 id="h-test">In patients' own words</h2>
+      </div>
+      <div class="t-grid" id="tGrid"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq" aria-labelledby="h-faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Questions</span>
+        <h2 id="h-faq">Before you visit</h2>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+  </section>
+
+  <!-- HOURS + LOCATION -->
+  <section id="visit" aria-labelledby="h-visit">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Visit</span>
+        <h2 id="h-visit">Hours and location</h2>
+      </div>
+      <div class="loc-grid">
+        <div class="loc-col">
+          <div class="card">
+            <h3>Clinic hours</h3>
+            <dl class="hours" id="hoursList"></dl>
+          </div>
+          <div class="emerg">
+            <div><strong>Dental emergency?</strong><br><span id="emergText"></span></div>
+            <a class="btn btn-primary" data-href="call"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call now</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Find the clinic</h3>
+          <address class="addr" id="addrBlock"></address>
+          <a class="btn btn-ghost btn-sm" data-href="map" target="_blank" rel="noopener">Open in Google Maps</a>
+          <div class="map-ph" id="mapWrap">Tap &ldquo;Open in Google Maps&rdquo; above for directions.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact" aria-labelledby="h-contact">
+    <div class="wrap contact-grid">
+      <div>
+        <div class="sec-head">
+          <span class="eyebrow">Book an appointment</span>
+          <h2 id="h-contact">Tell us what you need</h2>
+          <p>Fill in the form and your message opens in WhatsApp, ready to send. We will reply to confirm your time.</p>
+        </div>
+        <ul class="contact-list">
+          <li><small>Phone / WhatsApp</small><a data-href="call" data-cfg="phone">+91 98191 27451</a></li>
+          <li><small>Address</small><span id="contactAddr"></span></li>
+          <li><small>Hours</small><span id="contactHours"></span></li>
+          <li id="socialItem" hidden><small>Follow</small><span id="socialLinks"></span></li>
+        </ul>
+      </div>
+
+      <!-- To receive enquiries by email instead of WhatsApp: add action="https://formspree.io/f/YOUR_ID" method="POST"
+           (or Netlify: add data-netlify="true" name="enquiry" method="POST"), and remove the submit handler in the script. -->
+      <form class="form-card" id="enquiry" novalidate>
+        <div class="field" id="f-name">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <div class="err" role="alert">Please enter your name.</div>
+        </div>
+        <div class="field" id="f-phone">
+          <label for="phone">Mobile number</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="98XXXXXXXX" required>
+          <div class="err" role="alert">Please enter a valid 10-digit mobile number.</div>
+        </div>
+        <div class="field">
+          <label for="treatment">What do you need?</label>
+          <select id="treatment" name="treatment"></select>
+        </div>
+        <div class="field">
+          <label for="when">Preferred day and time <span class="opt">(optional)</span></label>
+          <input id="when" name="when" type="text" placeholder="e.g. Saturday evening">
+        </div>
+        <div class="field">
+          <label for="msg">Anything we should know? <span class="opt">(optional)</span></label>
+          <textarea id="msg" name="msg"></textarea>
+        </div>
+        <button class="btn btn-wa" type="submit" style="width:100%"><svg aria-hidden="true"><use href="#i-wa"/></svg>Send on WhatsApp</button>
+        <p class="form-note">This opens WhatsApp with your details filled in. Nothing is sent until you press send there.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav class="foot-links" aria-label="Footer">
+      <a href="#services">Treatments</a><a href="#about">Doctor</a><a href="#gallery">Gallery</a><a href="#faq">FAQ</a><a href="#visit">Visit</a><a data-href="call">Call +91 98191 27451</a>
+    </nav>
+    <p class="disclaimer">The information on this website is for general awareness and is not a substitute for a dental examination. Treatment advice depends on each patient's individual assessment.</p>
+    <p>&copy; <span id="yr"></span> <span data-cfg="name">Dr Ruth's Dental Clinic</span>, Virar West, Maharashtra.</p>
+  </div>
+</footer>
+
+<div class="fabs">
+  <a class="fab fab-call" data-href="call" aria-label="Call the clinic"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>Call</span></a>
+  <a class="fab fab-wa" data-href="wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+</div>
+
+<noscript><p style="padding:20px;text-align:center">Please enable JavaScript to see this page fully, or call +91 98191 27451.</p></noscript>
+
+<script>
+/* =====================================================================
+   CLIENT CONFIG: edit everything about the client here.
+   Anything in [SQUARE BRACKETS] is a placeholder to replace.
+   ===================================================================== */
+const CONFIG = {
+  draftMode: false,            // true = highlight placeholders. Set false before publishing.
+
+  name: "Dr Ruth's Dental Clinic",
+  siteUrl: "https://[YOUR-DOMAIN]",
+
+  phoneDisplay: "+91 98191 27451",
+  phoneIntl: "+919819127451",     // used for tap-to-call
+  whatsapp: "919819127451",       // country code + number, no + or spaces
+  waMessage: "Hello, I would like to book an appointment at Dr Ruth's Dental Clinic.",
+
+  address: {
+    line1: "Office 216, Kingston Court",
+    line2: "Opposite Old Viva College, Tirupati Nagar",
+    city: "Virar West, Vasai-Virar",
+    locality: "Virar",
+    state: "Maharashtra",
+    pin: "401303"
+  },
+  mapsLink: "https://maps.app.goo.gl/R1HPU2ytfpo857bGA",
+  mapsEmbed: "https://maps.google.com/maps?q=19.457693,72.8038642&hl=en&z=17&output=embed",
+
+  // SAMPLE hours: confirm the real timings with the clinic.
+  hours: [
+    { days: "Monday to Saturday", time: "10:00 AM to 8:00 PM" },
+    { days: "Sunday", time: "By appointment" }
+  ],
+  // For Google (JSON-LD). Leave empty until real hours are known. Example:
+  // [{ days: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], opens: "10:00", closes: "20:00" }]
+  hoursSchema: [],
+
+  emergencyText: "Call us on the number above. For heavy bleeding, facial swelling that spreads, or a serious injury, go to the nearest hospital emergency department.",
+
+  doctor: {
+    name: "Dr Ruth",
+    qualifications: "",          // e.g. "BDS, MDS (Orthodontics)": hidden while empty
+    registration: "",           // e.g. "Reg. no. A-12345": hidden while empty
+    bio: "Dr Ruth sees patients at the clinic in Virar West. Every visit starts with an examination, and your options are explained before any treatment begins.",   // SAMPLE: doctor to approve
+    focus: [],                   // e.g. ["Root canal treatment", "Braces"]: hidden while empty
+    photo: ""                      // e.g. "images/dr-ruth.jpg"
+  },
+
+  // Treatments: edit names and descriptions. Prices are hidden until you add real ones, e.g. price: "From ₹500".
+  services: [
+    { name: "Check-up and consultation", desc: "A full examination, with X-rays if needed, and a clear explanation of what we find.", price: "" },
+    { name: "Scaling and polishing", desc: "Professional cleaning to remove plaque and tartar from the teeth and gum line.", price: "" },
+    { name: "Fillings", desc: "Repair of cavities with tooth-coloured or other suitable filling materials.", price: "" },
+    { name: "Root canal treatment", desc: "Treatment to save a tooth when the nerve inside is infected or damaged.", price: "" },
+    { name: "Crowns and bridges", desc: "Caps and fixed replacements to restore damaged or missing teeth.", price: "" },
+    { name: "Dental implants", desc: "A fixed option to replace missing teeth, planned after assessment of your gums and bone.", price: "" },
+    { name: "Braces and aligners", desc: "Options to straighten teeth and correct bite problems, after an orthodontic assessment.", price: "" },
+    { name: "Teeth whitening", desc: "A cosmetic treatment to lighten tooth shade, suited to healthy teeth and gums.", price: "" },
+    { name: "Dentures", desc: "Removable replacements for several or all missing teeth.", price: "" },
+    { name: "Extractions and wisdom teeth", desc: "Removal of teeth that cannot be saved or are causing problems.", price: "" }
+  ],
+
+  // confirm:true shows a yellow "to confirm" highlight in draft mode. Remove once approved.
+  whyUs: [
+    { title: "Clear explanations", text: "We explain what the problem is and what your options are before starting treatment.", confirm: true },
+    { title: "Cost discussed first", text: "You are told the expected cost of treatment before it begins.", confirm: true },
+    { title: "Easy to reach", text: "Kingston Court, opposite Old Viva College in Tirupati Nagar, Virar West.", confirm: false }
+  ],
+
+  // Representative stock images. Replace with real clinic photos when available.
+  gallery: [
+    { src: "images/clinic-room.webp", alt: "A bright dental treatment room with a treatment chair" },
+    { src: "images/consultation.webp", alt: "A dentist chatting with a patient in a treatment room" },
+    { src: "images/aligners.webp", alt: "A young patient placing a clear aligner" },
+    { src: "images/xray-review.webp", alt: "A dentist reviewing dental scans on a light box" },
+    { src: "images/toothbrushes.webp", alt: "Two bamboo toothbrushes in a glass jar" },
+    { src: "images/brush-pink.webp", alt: "Close-up of a toothbrush" }
+  ],
+
+  // The reviews section stays hidden until you add REAL reviews (with the patient's permission). Format:
+  // { quote: "Review text", who: "Patient first name", treatment: "Treatment", real: true }
+  testimonials: [],
+
+  faqs: [
+    { q: "How do I book an appointment?", a: "Use the form on this page, message us on WhatsApp or call the clinic. Tell us your concern and preferred time and we will confirm a slot." },
+    { q: "What should I bring for my first visit?", a: "Any earlier dental records or X-rays, a list of medicines you take, and details of any health conditions or allergies." },
+    { q: "Will my treatment be painful?", a: "Your comfort matters. Where a procedure needs it, local anaesthesia is used, and the doctor will explain what to expect before starting. Please tell us if you feel anxious." },
+    { q: "What should I do in a dental emergency?", a: "Call the clinic straight away. If there is heavy bleeding, spreading facial swelling or a serious injury, go to the nearest hospital emergency department." },
+    { q: "Where is the clinic?", a: "Office 216, Kingston Court, opposite Old Viva College, Tirupati Nagar, Virar West. Use the map link in the Visit section for directions." }
+  ],
+
+  social: { instagram: "", facebook: "", googleReviews: "" }   // full URLs; leave "" to hide
+};
+
+/* =====================================================================
+   SITE SCRIPT: no need to edit below this line
+   ===================================================================== */
+(function () {
+  'use strict';
+  const C = CONFIG;
+  const $ = (s, r) => (r || document).querySelector(s);
+  const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+  const isPh = t => /\[[^\]]+\]/.test(t);
+
+  function setText(n, t) {
+    n.textContent = t;
+    if (C.draftMode && isPh(t)) n.classList.add('ph');
+    return n;
+  }
+  function mk(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) setText(n, text);
+    return n;
+  }
+
+  const a = C.address;
+  const fullAddress = [a.line1, a.line2, a.city, a.state + ' ' + a.pin].join(', ');
+  const waLink = msg => 'https://wa.me/' + C.whatsapp + '?text=' + encodeURIComponent(msg || C.waMessage);
+  const hoursShort = C.hours.map(h => h.days + ': ' + h.time).join(' | ');
+
+  // Draft banner
+  if (C.draftMode) $('#draftBar').hidden = false;
+
+  // Simple bindings
+  const text = { name: C.name, phone: C.phoneDisplay, doctorName: C.doctor.name };
+  $$('[data-cfg]').forEach(n => { const k = n.dataset.cfg; if (text[k] != null) setText(n, text[k]); });
+  const hrefs = { call: 'tel:' + C.phoneIntl, wa: waLink(), map: C.mapsLink };
+  $$('[data-href]').forEach(n => { const h = hrefs[n.dataset.href]; if (h) n.setAttribute('href', h); });
+
+  setText($('#factAddr'), a.line1.replace('Office 216, ', '') + ', Virar West');
+  setText($('#factHours'), C.hours[0] ? C.hours[0].days + ', ' + C.hours[0].time : '[Add hours]');
+
+  // Doctor
+  const credBits = [C.doctor.qualifications, C.doctor.registration].filter(Boolean);
+  if (credBits.length) setText($('#creds'), credBits.join(' | ')); else $('#creds').hidden = true;
+  setText($('#bio'), C.doctor.bio);
+  C.doctor.focus.forEach(f => $('#focusTags').appendChild(mk('span', 'tag', f)));
+  if (C.doctor.photo) {
+    const p = $('#portrait'); p.textContent = '';
+    const img = document.createElement('img');
+    img.src = C.doctor.photo; img.alt = C.doctor.name; img.loading = 'lazy'; img.width = 300; img.height = 400;
+    p.hidden = false; p.appendChild(img);
+  } else {
+    $('#aboutGrid').classList.add('solo');   // no doctor photo yet: text-only layout
+  }
+
+  // Services + select options
+  const sel = $('#treatment');
+  const addOpt = (v) => { const o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); };
+  addOpt('Not sure: general check-up');
+  C.services.forEach((s, i) => {
+    const li = mk('li');
+    li.appendChild(mk('span', 'num', String(i + 1).padStart(2, '0')));
+    const d = mk('div');
+    d.appendChild(mk('h3', null, s.name));
+    d.appendChild(mk('p', null, s.desc));
+    li.appendChild(d);
+    if (s.price) li.appendChild(mk('span', 'price', s.price));
+    $('#serviceList').appendChild(li);
+    addOpt(s.name);
+  });
+  addOpt('Something else');
+
+  // Why us
+  C.whyUs.forEach(w => {
+    const li = mk('li');
+    const ic = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    ic.setAttribute('aria-hidden', 'true');
+    ic.innerHTML = '<use href="#i-check"/>';
+    li.appendChild(ic);
+    const d = mk('div');
+    d.appendChild(mk('h3', null, w.title));
+    const p = mk('p', null, w.text);
+    if (C.draftMode && w.confirm) p.classList.add('ph');
+    d.appendChild(p);
+    li.appendChild(d);
+    $('#whyList').appendChild(li);
+  });
+
+  // Gallery
+  const g = $('#galGrid');
+  if (C.gallery.length) {
+    C.gallery.forEach(it => {
+      const t = mk('div', 'tile has-img');
+      const img = document.createElement('img');
+      img.src = it.src; img.alt = it.alt || ''; img.loading = 'lazy'; img.decoding = 'async';
+      t.appendChild(img); g.appendChild(t);
+    });
+  } else {
+    $('#gallery').hidden = true;      // hidden until real clinic photos are added
+    $('#navGallery').hidden = true;
+  }
+
+  // Testimonials
+  const reviews = C.testimonials.filter(t => t.real);
+  if (!reviews.length) $('#reviews').hidden = true;
+  reviews.forEach(t => {
+    const c = mk('figure', 't-card' + (t.real ? ' real' : ''));
+    c.style.margin = '0';
+    const bq = mk('blockquote', null, t.quote);
+    const ft = mk('footer', null, t.who + (t.treatment ? ', ' + t.treatment : ''));
+    c.appendChild(bq); c.appendChild(ft);
+    $('#tGrid').appendChild(c);
+  });
+
+  // FAQ
+  C.faqs.forEach(f => {
+    const d = document.createElement('details');
+    d.appendChild(mk('summary', null, f.q));
+    d.appendChild(mk('p', null, f.a));
+    $('#faqList').appendChild(d);
+  });
+
+  // Hours + address
+  C.hours.forEach(h => {
+    const row = mk('div');
+    row.appendChild(mk('dt', null, h.days));
+    row.appendChild(mk('dd', null, h.time));
+    $('#hoursList').appendChild(row);
+  });
+  const ab = $('#addrBlock');
+  [a.line1, a.line2, a.city + ', ' + a.state + ' ' + a.pin].forEach((l, i) => {
+    if (i) ab.appendChild(document.createElement('br'));
+    ab.appendChild(document.createTextNode(l));
+  });
+  setText($('#emergText'), C.emergencyText);
+  setText($('#contactAddr'), fullAddress);
+  setText($('#contactHours'), hoursShort);
+  if (C.draftMode) {
+    $$('#hoursList dd').forEach(n => n.classList.add('ph'));
+    ['#bio', '#factHours', '#contactHours'].forEach(id => $(id).classList.add('ph'));
+  }
+
+  if (C.mapsEmbed) {
+    const w = $('#mapWrap'); w.textContent = ''; w.style.padding = '0'; w.style.background = 'none';
+    const f = document.createElement('iframe');
+    f.src = C.mapsEmbed; f.loading = 'lazy'; f.title = 'Map showing ' + C.name;
+    f.referrerPolicy = 'no-referrer-when-downgrade';
+    w.appendChild(f);
+  }
+
+  // Social
+  const soc = [['Instagram', C.social.instagram], ['Facebook', C.social.facebook], ['Google reviews', C.social.googleReviews]].filter(s => s[1]);
+  if (soc.length) {
+    $('#socialItem').hidden = false;
+    soc.forEach((s, i) => {
+      if (i) $('#socialLinks').appendChild(document.createTextNode('  ·  '));
+      const l = document.createElement('a'); l.href = s[1]; l.target = '_blank'; l.rel = 'noopener'; l.textContent = s[0];
+      $('#socialLinks').appendChild(l);
+    });
+  }
+
+  $('#yr').textContent = new Date().getFullYear();
+
+  // Mobile menu
+  const btn = $('#menuBtn'), nav = $('#nav');
+  btn.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  $$('a', nav).forEach(l => l.addEventListener('click', () => {
+    nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false');
+  }));
+
+  // Enquiry form -> WhatsApp
+  const form = $('#enquiry');
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const nameEl = $('#name'), phoneEl = $('#phone');
+    const name = nameEl.value.trim();
+    let digits = phoneEl.value.replace(/\D/g, '');
+    if (digits.length === 12 && digits.startsWith('91')) digits = digits.slice(2);
+    if (digits.length === 11 && digits.startsWith('0')) digits = digits.slice(1);
+    const okName = name.length > 1;
+    const okPhone = /^[6-9]\d{9}$/.test(digits);
+    $('#f-name').classList.toggle('bad', !okName);
+    $('#f-phone').classList.toggle('bad', !okPhone);
+    if (!okName) { nameEl.focus(); return; }
+    if (!okPhone) { phoneEl.focus(); return; }
+
+    const lines = [
+      'Hello ' + C.name + ',',
+      'I would like to book an appointment.',
+      '',
+      'Name: ' + name,
+      'Mobile: +91 ' + digits,
+      'Need: ' + $('#treatment').value
+    ];
+    const when = $('#when').value.trim(), note = $('#msg').value.trim();
+    if (when) lines.push('Preferred time: ' + when);
+    if (note) lines.push('Note: ' + note);
+    const url = waLink(lines.join('\n'));
+    const w = window.open(url, '_blank', 'noopener');
+    if (!w) window.location.href = url;
+  });
+
+  // LocalBusiness structured data
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'Dentist',
+    name: C.name,
+    url: C.siteUrl,
+    telephone: C.phoneIntl,
+    hasMap: C.mapsLink,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: a.line1 + ', ' + a.line2,
+      addressLocality: a.locality,
+      addressRegion: a.state,
+      postalCode: a.pin,
+      addressCountry: 'IN'
+    }
+  };
+  if (C.hoursSchema.length) {
+    ld.openingHoursSpecification = C.hoursSchema.map(h => ({
+      '@type': 'OpeningHoursSpecification', dayOfWeek: h.days, opens: h.opens, closes: h.closes
+    }));
+  }
+  const sameAs = Object.values(C.social).filter(Boolean);
+  if (sameAs.length) ld.sameAs = sameAs;
+  const s = document.createElement('script');
+  s.type = 'application/ld+json';
+  s.textContent = JSON.stringify(ld);
+  document.head.appendChild(s);
+})();
+</script>
+</body>
+</html>
